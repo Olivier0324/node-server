@@ -1,0 +1,107 @@
+
+# =====================================
+# NODE.JS DEPENDENCIES
+# =====================================
+node_modules/
+jspm_packages/
+
+# =====================================
+# ENVIRONMENT VARIABLES & SECRETS
+# =====================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =====================================
+# LOG FILES
+# =====================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================================
+# BUILD OUTPUT
+# =====================================
+dist/
+build/
+out/
+coverage/
+
+# =====================================
+# CACHE
+# =====================================
+.cache/
+.npm/
+.eslintcache
+.parcel-cache/
+.turbo/
+
+# =====================================
+# DATABASE & LOCAL DATA
+# =====================================
+*.sqlite
+*.sqlite3
+*.db
+
+# =====================================
+# UPLOADS & USER FILES
+# =====================================
+uploads/*
+!uploads/.gitkeep
+storage/
+public/uploads/
+
+# =====================================
+# TEMPORARY FILES
+# =====================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# =====================================
+# IDE & EDITOR
+# =====================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# TESTING
+# =====================================
+.nyc_output/
+test-results/
+
+# =====================================
+# TYPESCRIPT
+# =====================================
+*.tsbuildinfo
+
+# =====================================
+# PRISMA
+# =====================================
+# Uncomment if you store generated Prisma
+# client files in a custom ignored directory.
+# prisma/generated/
+
+# =====================================
+# MISCELLANEOUS
+# =====================================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
